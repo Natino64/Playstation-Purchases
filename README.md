@@ -52,8 +52,6 @@ Make sure Python is installed on your system. You can download it from [python.o
 
 Is python not recognised by your command line? Here's how to fix the issue:
 
-It sounds like the Python executable path may not be in your system's PATH variable. This is a common issue on some systems. To resolve this, you need to add the path to the Python executable to your system's PATH.
-
 #### For Mac:
 
 1. **Find Python Executable Path:**
