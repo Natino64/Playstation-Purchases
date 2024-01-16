@@ -6,6 +6,8 @@ This python script totals your PSN purchases in two ways; it provides a number o
 
 ## How to run:
 
+Firstly, download the playstation_purchases.py file.
+
 #### For Mac:
 
 **1. Open Terminal:**
