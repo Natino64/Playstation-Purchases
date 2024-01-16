@@ -25,9 +25,9 @@ Firstly, download the playstation_purchases.py file.
 **3. Run the Script:**
    - Once you're in the script's directory, run the script using the `python` command:
      ```bash
-     python your_script_name.py
+     python playstation_purchases.py
      ```
-   Replace `your_script_name.py` with the actual name of your Python script.
+
 
 #### For Windows:
 
@@ -44,11 +44,9 @@ Firstly, download the playstation_purchases.py file.
 **3. Run the Script:**
    - Once you're in the script's directory, run the script using the `python` command:
      ```cmd
-     python your_script_name.py
+     playstation_purchases.py
      ```
-   Replace `your_script_name.py` with the actual name of your Python script.
 
 ### Additional Tips:
 
 - Make sure Python is installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
-- If you encounter any issues related to missing libraries, you may need to install them using tools like `pip`. Let me know if your script has any specific dependencies.
