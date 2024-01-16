@@ -13,10 +13,12 @@ def calculate_product_purchase_total(entries, currency_symbol):
 
         for line in lines:
             if re.match(r'\d{2}/\d{2}/\d{4}', line):
-                # Check if the line starts with a date
+                # Check if the line starts with a date - this marks a new transaction
                 continue
             elif line.strip().lower() == 'product purchase':
                 current_transaction_type = 'product_purchase'
+                # Ensures only 'product purchase' transactions are counted
+                # 'wallet funding' transactions are not counted, as this would result in the doubling of certain purchase totals
             elif line.startswith(currency_symbol):
                 if current_transaction_type == 'product_purchase':
                     currency_total += float(line[1:])
