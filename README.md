@@ -1,6 +1,9 @@
 # Playstation-Purchases
 This python script totals your PSN purchases in two ways; it provides a number of total purchases made, and the total amount of money spent on those purchases.
 
+#### What is the point of this? Can't I add up the spending myself?
+Sure you could! But if your account is as old as mine (15 years old as of 2024) it likely has hundreds, if not thousands of transactions. For old accounts, then, it's not feasible to manually count up each and every transaction - hence why I wrote this code! I've now shared it for anyone else curious for their total spending.
+
 Future work on this project: Migrating to a user-friendly web-page, removing the need for a downloaded script and terminal/command prompt usage.
 
 ## What it looks like when you run this program:
