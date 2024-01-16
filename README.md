@@ -10,6 +10,8 @@ Future work on this project: Migrating to a user-friendly web-page, removing the
 
 Firstly, download the playstation_purchases.py file.
 
+Make sure Python is installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+
 #### For Mac:
 
 **1. Open Terminal:**
@@ -46,7 +48,3 @@ Firstly, download the playstation_purchases.py file.
      ```cmd
      playstation_purchases.py
      ```
-
-### Additional Tips:
-
-- Make sure Python is installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
