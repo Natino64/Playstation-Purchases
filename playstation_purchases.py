@@ -21,7 +21,9 @@ def calculate_product_purchase_total(entries, currency_symbol):
                 # 'wallet funding' transactions are not counted, as this would result in the doubling of certain purchase totals
             elif line.startswith(currency_symbol):
                 if current_transaction_type == 'product_purchase':
-                    currency_total += float(line[1:])
+                    # For currencies that use commas to separate thousands, remove the commas
+                    number_without_comma = line[1:].replace(",", "")
+                    currency_total += float(number_without_comma)
                     transaction_count += 1
                     current_transaction_type = None
 
