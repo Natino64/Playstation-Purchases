@@ -121,8 +121,8 @@ After following these steps, your system should recognize the `python` command i
    - Seasonal trends (e.g. favourite season for purchases)
    - Monthly trends (e.g. what day of the month are most purchases made)
    - ~~Average purchase amount~~ ([b3dcc26](https://github.com/baconbum/Playstation-Purchases/commit/b3dcc2627ef201cc12a011c0648589e0529293ad) & [0c0f75a](0c0f75a7c55b28aedd56ae2d8d10c61a81476c56))
-   - Most expensive purchase
-   - Cheapest non-0 purchase
+   - ~~Most expensive purchase~~ ([2a9bfe8](https://github.com/baconbum/Playstation-Purchases/commit/2a9bfe8961dcaff8bc5d2b9c05a99d6449ef41fb))
+   - ~~Cheapest non-0 purchase~~ ([564a511](https://github.com/baconbum/Playstation-Purchases/commit/564a511fe053895484ea22a89529c00300a39a5c))
    - Longest transaction free period
    - Longest purchase streak (days)
    - etc...
