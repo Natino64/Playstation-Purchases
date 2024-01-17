@@ -7,6 +7,7 @@ def calculate_product_purchase_total(entries, currency_symbol):
     currency_total = 0.0
     transaction_count = 0
     free_transaction_count = 0
+    largest_transaction_total = 0
     current_transaction_type = None
 
     for entry in entries:
@@ -29,9 +30,12 @@ def calculate_product_purchase_total(entries, currency_symbol):
                     if transaction_total == 0:
                         free_transaction_count += 1
 
+                    if transaction_total > largest_transaction_total:
+                        largest_transaction_total = transaction_total
+
                     current_transaction_type = None
 
-    return currency_total, transaction_count, free_transaction_count
+    return currency_total, transaction_count, free_transaction_count, largest_transaction_total
 
 def get_currency():
     currency_symbol = input("Enter the current associated with your PSN purchases (e.g., £, $, €): ")
@@ -80,7 +84,7 @@ while True:
     entries.append(entry)
 
 currency_symbol = get_currency()
-currency_total, transaction_count, free_transaction_count = calculate_product_purchase_total(entries, currency_symbol)
+currency_total, transaction_count, free_transaction_count, largest_transaction_total = calculate_product_purchase_total(entries, currency_symbol)
 
 paid_transaction_count = transaction_count - free_transaction_count
 
@@ -89,3 +93,4 @@ print(f"Total number of transactions: {transaction_count}")
 print(f"Total number of free transactions: {free_transaction_count}")
 print(f"Total number of paid transactions: {paid_transaction_count}")
 print(f"Average paid transaction: {currency_symbol}{(currency_total / paid_transaction_count):.2f}")
+print(f"Largest single transaction: {currency_symbol}{largest_transaction_total:.2f}")
