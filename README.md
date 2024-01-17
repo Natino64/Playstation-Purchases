@@ -4,8 +4,6 @@ This python script totals your PSN purchases in two ways; it provides a number o
 #### What is the point of this? Can't I add up the spending myself?
 Sure you could! But if your account is as old as mine (15 years old as of 2024) it likely has hundreds, if not thousands of transactions. For old accounts, then, it's not feasible to manually count up each and every transaction - hence why I wrote this code! I've now shared it for anyone else curious for their total spending on PSN.
 
-Future work on this project: Migrating to a user-friendly web-page, removing the need for a downloaded script and terminal/command prompt usage.
-
 ## What it looks like when you run this program:
 <img width="1022" alt="Screenshot 2024-01-16 at 21 15 45" src="https://github.com/Natino64/Playstation-Purchases/assets/30630493/b3545935-8aa0-421a-aaa9-6afe45ab0f0f">
 
@@ -114,3 +112,15 @@ Is python not recognised by your command line? Here's how to fix the issue:
    - Type `python` again in the Command Prompt. It should now recognize the command.
 
 After following these steps, your system should recognize the `python` command in the terminal or Command Prompt.
+
+## Future work on this project: 
+- Migrating to a user-friendly web-page using Github Pages, removing the need for a downloaded script and terminal/command prompt usage.
+- Insight-gathering from data, e.g.:
+   - The year/month/day most purchases were made
+   - The most expensive year/month/day
+   - Seasonal trends (e.g. favourite season for purchases)
+   - Monthly trends (e.g. what day of the month are most purchases made)
+   - Average purchase amount
+   - Longest transaction free period
+   - Longest purchase streak (days)
+   - etc...
