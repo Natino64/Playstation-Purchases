@@ -120,7 +120,7 @@ After following these steps, your system should recognize the `python` command i
    - The most expensive year/month/day
    - Seasonal trends (e.g. favourite season for purchases)
    - Monthly trends (e.g. what day of the month are most purchases made)
-   - Average purchase amount
+   - ~~Average purchase amount~~ ([b3dcc26](https://github.com/baconbum/Playstation-Purchases/commit/b3dcc2627ef201cc12a011c0648589e0529293ad) & [0c0f75a](0c0f75a7c55b28aedd56ae2d8d10c61a81476c56))
    - Most expensive purchase
    - Cheapest non-0 purchase
    - Longest transaction free period
