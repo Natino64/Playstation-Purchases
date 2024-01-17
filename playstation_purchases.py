@@ -87,5 +87,5 @@ paid_transaction_count = transaction_count - free_transaction_count
 print(f"Total for product purchases: {currency_symbol}{currency_total:.2f}")
 print(f"Total number of transactions: {transaction_count}")
 print(f"Total number of free transactions: {free_transaction_count}")
-print(f"Total number of paid transactions: {transaction_count - free_transaction_count}")
+print(f"Total number of paid transactions: {paid_transaction_count}")
 print(f"Average paid transaction: {currency_symbol}{(currency_total / paid_transaction_count):.2f}")
