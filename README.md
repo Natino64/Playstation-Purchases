@@ -119,7 +119,7 @@ After following these steps, your system should recognize the `python` command i
    - The year/month/day most purchases were made
    - The most expensive year/month/day
    - Seasonal trends (e.g. favourite season for purchases)
-   - Monthly trends (e.g. what day of the month are most purchases made)
+   - Weekday/monthly trends (e.g. what weekday / month are most purchases typically made across all years)
    - Average purchase amount
    - Most expensive purchase
    - Cheapest non-0 purchase
