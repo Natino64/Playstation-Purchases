@@ -121,6 +121,8 @@ After following these steps, your system should recognize the `python` command i
    - Seasonal trends (e.g. favourite season for purchases)
    - Monthly trends (e.g. what day of the month are most purchases made)
    - Average purchase amount
+   - Most expensive purchase
+   - Cheapest non-0 purchase
    - Longest transaction free period
    - Longest purchase streak (days)
    - etc...
