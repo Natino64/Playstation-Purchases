@@ -91,11 +91,12 @@ currency_symbol = get_currency()
 currency_total, transaction_count, free_transaction_count, largest_transaction_total, smallest_paid_transaction = calculate_product_purchase_total(entries, currency_symbol)
 
 paid_transaction_count = transaction_count - free_transaction_count
+average_paid_transaction = currency_total / paid_transaction_count
 
 print(f"Total for product purchases: {currency_symbol}{currency_total:.2f}")
 print(f"Total number of transactions: {transaction_count}")
 print(f"Total number of free transactions: {free_transaction_count}")
 print(f"Total number of paid transactions: {paid_transaction_count}")
-print(f"Average paid transaction: {currency_symbol}{(currency_total / paid_transaction_count):.2f}")
+print(f"Average paid transaction: {currency_symbol}{average_paid_transaction:.2f}")
 print(f"Largest single transaction: {currency_symbol}{largest_transaction_total:.2f}")
 print(f"Smallest paid transaction: {currency_symbol}{smallest_paid_transaction:.2f}")
